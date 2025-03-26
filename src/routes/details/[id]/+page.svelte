@@ -4,6 +4,9 @@
     import { timeAgo } from '$lib/utils';
     import { goto } from '$app/navigation';
     import { swipe } from 'svelte-gestures';
+    import animationSwipeMp4 from "$lib/animation-swipe.mp4";
+    import animationSwipeWebm from "$lib/animation-swipe.webm";
+
   
     /** @type {import('./$types').PageProps} */
 	let { data } = $props();
@@ -12,6 +15,12 @@
     let direction = $state(null);
     let activeTab = $state('detailed_definition');
     const tabList = ["back", "detailed_definition", "analogies", "use_cases"];
+    const tabLabels = {
+      back: "Back",
+      detailed_definition: "Detailed Definition",
+      analogies: "Analogies",
+      use_cases: "Use Cases"
+    };
 
     let id = $state(data.id);
     $effect(() => {
@@ -43,8 +52,19 @@
   <div class="flex flex-col justify-end items-center" use:swipe={()=>({ timeframe: 300, minSwipeDistance: 60, touchAction: 'pan-y' })} onswipe={swipeHandler}>
     <div class="p-2 w-full h-screen mb-16">
         <h2 class="text-xl font-bold">{term.word}</h2>
+        <h3 class="text-sm italic">{tabLabels[activeTab]}</h3>
         {#if activeTab === 'detailed_definition'}
             <p class="text-gray-700">{term.detailed_definition}</p>
+            <div class="flex lg:hidden items-center">
+                <div class="flex-1">
+                    <!-- svelte-ignore a11y_media_has_caption -->
+                    <video muted loop autoplay playsinline class="mx-auto" width="150" height="150" title="Finger swiping left">
+                        <source src={animationSwipeWebm} type="video/webm" />
+                        <source src={animationSwipeMp4} type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
         {:else if activeTab === 'analogies'}
             <ul class="list-disc list-inside">
                 {#each term.analogies as analogy}

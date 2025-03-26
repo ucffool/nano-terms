@@ -26,9 +26,9 @@
     
     function swipeHandler(event) {
         direction = event.detail.direction;
-        if (direction === 'left') {
+        if (direction === 'right') {
             activeTab = tabList[(tabList.indexOf(activeTab) - 1 + tabList.length) % tabList.length];
-        } else if (direction === 'right') {
+        } else if (direction === 'left') {
             activeTab = tabList[(tabList.indexOf(activeTab) + 1) % tabList.length];
         }
         if (activeTab === 'back') {

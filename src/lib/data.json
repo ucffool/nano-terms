@@ -52,7 +52,125 @@
           "If you ask, \"What are the benefits of exercising?\", with a temperature of 0, the model might say: \"Exercising improves heart health and muscle strength, lowers the chance of chronic diseases, and helps manage weight.\"",
           "With the same question on exercise and a temperature of 1, you might get: \"Exercise is the alchemist turning sweat into a miracle cure, a ritual dancing in the flames of effort and reward.\""
         ]
-      }
+      },
+    {
+      "id": "token",
+      "word": "Token",
+      "credit": "MIT Sloan Teaching & Learning Technologies",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "A basic unit of text in AI models, such as a word or subwords.",
+      "detailed_definition": "A token is the smallest unit of text that an AI model processes and understands; this is typically 4 characters in English, or about ¾ of a word. Tokens may include whole words, parts of words, individual characters, punctuation marks, and special characters (LinkedIn Learning, n.d.).",
+      "analogies": [
+        "Tokens are like building blocks that can be put together to form sentences and paragraphs."
+      ],
+      "use_cases": []
+    },
+    {
+      "id": "transformers",
+      "word": "Transformers",
+      "credit": "Amazon AWS",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "Models that grasp context and the language’s long-term associations",
+      "detailed_definition": "Transformers are a type of neural network architecture that transforms or changes an input sequence into an output sequence. They do this by learning context and tracking relationships between sequence components. For example, consider this input sequence: \"What is the color of the sky?\" The transformer model uses an internal mathematical representation that identifies the relevancy and relationship between the words color, sky, and blue. It uses that knowledge to generate the output: \"The sky is blue.\" This allows them to capture complex relationships and dependencies within text, making them highly effective for tasks such as translation, summarization, and question answering.",
+      "analogies": [
+        "Transformers are like paying attention to different parts of a conversation at once to understand its context."
+      ],
+      "use_cases": [
+        "They can summarize large documents and generate coherent and contextually relevant text for all kinds of use cases. Virtual assistants like Alexa use transformer technology to understand and respond to voice commands.",
+        "Translation applications use transformers to provide real-time, accurate translations between languages. Transformers have significantly improved the fluency and accuracy of translations as compared to previous technologies.",
+        "By treating segments of DNA as a sequence similar to language, transformers can predict the effects of genetic mutations, understand genetic patterns, and help identify regions of DNA that are responsible for certain diseases. This capability is crucial for personalized medicine, where understanding an individual's genetic makeup can lead to more effective treatments."
+      ]
+    },
+    {
+      "id": "hallucination",
+      "word": "Hallucination",
+      "credit": "MIT Sloan Teaching & Learning Technologies",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "When a model generates false or incorrect information.",
+      "detailed_definition": "Occurrences where large language models generate factually inaccurate or illogical answers due to data and architecture constraints are called hallucinations. This can happen due to the model's training data containing inaccuracies or because the model extrapolates beyond its learned patterns without sufficient context.",
+      "analogies": [
+        "Hallucination is like believing in a story that is entirely made up and not grounded in reality.",
+		"A machine's version of \"improvisation\", where it attempts to make reason out of things that don't make sense or it doesn't have associations for, causing illogical predictions."
+      ],
+      "use_cases": [
+        "Ensuring the accuracy of chatbot responses to avoid spreading misinformation.",
+        "Monitoring AI-generated content for inconsistencies or errors.",
+        "Improving training datasets to reduce the likelihood of hallucinations."
+      ]
+    },
+    {
+      "id": "neural_network",
+      "word": "Neural Network",
+      "credit": "MIT Sloan Teaching & Learning Technologies",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "Mathematical system that identifies and analyzes statistical patterns.",
+      "detailed_definition": "Neural Networks, modeled after the human brain, are a mathematical system that actively learns skills by identifying and analyzing statistical patterns in data. This system features multiple layers of artificial neurons, which are computational models inspired by the neurons in our brain. These artificial neurons process information and transmit signals to other connected neurons. While the first layer processes the input data, the final layer delivers the results. Intriguingly, even the experts who meticulously design these neural networks often find themselves puzzled by the intricate processes occurring between the layers.",
+      "analogies": [
+        "Neural networks are like a brain's interconnected neurons working together to process information.",
+		"An extremely large spreadsheet of interconnected layers (multiple sheets) with values between 0 and 1 in every cell."
+      ],
+      "use_cases": [
+        "Image classification for identifying objects in photos.",
+        "Speech recognition for converting spoken words into text.",
+        "Recommender systems that suggest products or content based on user preferences."
+      ]
+    },
+    {
+      "id": "reinforcement_learning",
+      "word": "Reinforcement Learning",
+      "credit": "MIT Sloan Teaching & Learning Technologies",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "Machine learning where an agent learns through trial and error.",
+      "detailed_definition": "Reinforcement Learning is a method in AI training where models learn optimal decision-making strategies through cycles of actions and feedback, with human interaction (commonly) playing a pivotal role in refining the learning process. Models learn by making decisions, observing the outcomes of those decisions, and adjusting their strategies accordingly.\n\nDeepseek's R1-Zero model uses mathematical data to allow for machine reinforcement.",
+      "analogies": [
+        "Reinforcement learning is like teaching a child to play a game by rewarding them for winning and letting them try again when they lose."
+      ],
+      "use_cases": [
+        "Training robots to perform complex tasks efficiently.",
+        "Developing autonomous vehicles that navigate unpredictable road conditions.",
+        "Optimizing online advertising strategies based on user interactions."
+      ]
+    },
+    {
+      "id": "supervised_learning",
+      "word": "Supervised Learning",
+      "credit": "Mario Lurig",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "Machine learning where an algorithm learns from labeled datasets.",
+      "detailed_definition": "Supervised learning involves training a model on a dataset that includes both input features and corresponding labels. The model learns patterns in the data and uses these patterns to predict outcomes for new, unseen data. This allows the algorithm to learn the mapping from inputs to outputs, enabling it to make predictions or decisions when presented with new, unseen data",
+      "analogies": [
+        "Supervised learning is like teaching a student what answers are correct based on labeled examples.",
+		"Showing you 10 pictures each of a circle, square, and triangle, then showing you a new image of one of those shapes and asking you to identify it to see how well you've learned."
+      ],
+      "use_cases": [
+        "Classifying emails as spam or not spam.",
+		"Image classification.",
+        "Predicting house prices based on features like size and location.",
+        "Recommending products to users based on their past purchases."
+      ]
+    },
+    {
+      "id": "chain_of_thought_prompting",
+      "word": "Chain of Thought (CoT) Prompting",
+      "credit": "MIT Sloan Teaching & Learning Technologies",
+      "visible": true,
+      "last_updated": "2025-03-28",
+      "one_sentence_definition": "Prompting with step-by-step instructions to show \"how\".",
+      "detailed_definition": "Chain-of-Thought (CoT) prompting is a technique that enhances the reasoning capabilities of large language models (LLMs) by incorporating logical steps—or a \"chain of thought\"—within the prompt. Unlike direct-answer prompting, CoT guides the model to work through intermediate reasoning steps, making it more adept at solving complex tasks like math problems, commonsense reasoning, and symbolic manipulation. This approach helps improve transparency and interpretability by making it easier to understand how the model arrives at its conclusions.",
+      "analogies": [
+        "Chain of Thought prompting is like explaining your thought process when solving a puzzle, step-by-step."
+      ],
+      "use_cases": [
+        "Q: John has 10 apples. He gives away 4 and then receives 5 more. How many apples does he have?\nA: John starts with 10 apples.\nHe gives away 4, so 10 - 4 = 6.\nHe then receives 5 more apples, so 6 + 5 = 11.\nFinal Answer: 11\nQ: [Your Question]",
+		"Convert the HTML below into JSON format using the following JSON template: `{}`.\nUse synonyms to establish matches for each field.\nIf there is more than one result, use an array."
+      ]
+    }
     ],
-    "last_updated": "2025-03-24"
+    "last_updated": "2025-03-28"
   }

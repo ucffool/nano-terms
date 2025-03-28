@@ -44,6 +44,12 @@
             goto("/");
         }
     }
+    
+    // function to convert newline to break
+    function newlineToBreak(text) {
+      return text.replace(/\n/g, '<br>');
+    }
+
 
 </script>
 
@@ -54,7 +60,7 @@
         <h2 class="text-xl font-bold">{term.word}</h2>
         <h3 class="text-sm italic">{tabLabels[activeTab]}</h3>
         {#if activeTab === 'detailed_definition'}
-            <p class="text-gray-700">{term.detailed_definition}</p>
+            <p class="text-gray-700">{@html newlineToBreak(term.detailed_definition)}</p>
             <div class="flex lg:hidden items-center">
                 <div class="flex-1">
                     <!-- svelte-ignore a11y_media_has_caption -->
@@ -68,13 +74,13 @@
         {:else if activeTab === 'analogies'}
             <ul class="list-disc list-inside">
                 {#each term.analogies as analogy}
-                <li>{analogy}</li>
+                <li>{@html newlineToBreak(analogy)}</li>
                 {/each}
             </ul>
         {:else if activeTab === 'use_cases'}
             <ul class="list-disc list-inside">
                 {#each term.use_cases as useCase}
-                <li>{useCase}</li>
+                <li>{@html newlineToBreak(useCase)}</li>
                 {/each}
             </ul>
         {/if}

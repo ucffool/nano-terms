@@ -23,7 +23,7 @@
     </div>
 </main>
 <div class="w-full border-t-2 px-2 border-black flex justify-between items-end leading-none">
-    <div class="mb-1">Last Updated: <b>{timeAgo(definitions.last_updated)}</b></div>
+    <div class="mb-1">Last Updated: <b class="capitalize">{timeAgo(definitions.last_updated)}</b></div>
     <a class="py-1" href="https://github.com/ucffool/nano-terms" aria-label="GitHub Project" title="NanoTerms GitHub Project">
         <img src={imgGithub} alt="GitHub Logo" class="w-5 h-auto"/>
     </a>

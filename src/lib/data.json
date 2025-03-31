@@ -170,7 +170,113 @@
         "Q: John has 10 apples. He gives away 4 and then receives 5 more. How many apples does he have?\nA: John starts with 10 apples.\nHe gives away 4, so 10 - 4 = 6.\nHe then receives 5 more apples, so 6 + 5 = 11.\nFinal Answer: 11\nQ: [Your Question]",
 		"Convert the HTML below into JSON format using the following JSON template: `{}`.\nUse synonyms to establish matches for each field.\nIf there is more than one result, use an array."
       ]
-    }
+    },
+	{
+      "id": "embedding",
+      "word": "Embedding",
+      "credit": "OpenAI GPT-4o",
+      "visible": true,
+      "last_updated": "2025-03-30",
+      "one_sentence_definition": "A way of representing words or data as numerical vectors.",
+      "detailed_definition": "Embeddings convert categorical or unstructured data, like words or images, into continuous numerical vectors in a high-dimensional space. This transformation allows machine learning models to process and understand relationships between different inputs more effectively.",
+      "analogies": [
+        "Embeddings are like placing books in a library according to their subject, grouping similar ones together.",
+        "They act as GPS coordinates for concepts, helping models find related meanings."
+      ],
+      "use_cases": [
+        "Improving search engines by understanding synonyms and related concepts.",
+        "Powering recommendation systems by analyzing user preferences.",
+        "Enhancing chatbot understanding of user queries."
+      ]
+	},
+	{
+		"id": "prompt_engineering",
+      "word": "Prompt Engineering",
+      "credit": "Mario Lurig",
+      "visible": true,
+      "last_updated": "2025-03-30",
+      "one_sentence_definition": "Crafting inputs to guide AI models toward desired outputs.",
+      "detailed_definition": "Prompt engineering is the practice of designing and refining input prompts to optimize the responses of AI models. By structuring prompts effectively, users can improve accuracy, relevance, and creativity in the model's generated content.",
+      "analogies": [
+        "Prompt engineering is like giving precise instructions to a chef to get the exact dish you want.",
+        "It’s similar to asking a well-phrased question to get a clear answer."
+      ],
+      "use_cases": [
+        "Create an image of a car by a lake.\nOR\nA pristine red 1959 Cadillac convertible with chrome trim and iconic pointed tail fins stands parked beside a weathered wooden boathouse with grey-stained timber walls on the rocky shore of a Norwegian fjord. A young woman wearing a white knee-length 1950s-style dress with a floral print pattern leans against the passenger door of the car. Behind the scene, steep snow-capped mountains rise dramatically against a bright blue sky dotted with white scattered clouds. The calm waters of the fjord reflect the mountains and sky, while large granite boulders line the shoreline where the boathouse sits. Wide-angle landscape photography with natural lighting and deep depth of field..",
+        "Improving chatbot and virtual assistant interactions."
+      ]
+	},
+	{
+	  "id": "few_shot_learning",
+      "word": "Few-shot Learning",
+      "credit": "OpenAI GPT-4o",
+      "visible": true,
+      "last_updated": "2025-03-30",
+      "one_sentence_definition": "Training AI to perform tasks using only a few examples.",
+      "detailed_definition": "Few-shot learning is a machine learning approach where models generalize from a small number of examples, rather than requiring extensive labeled datasets. This technique is particularly useful for tasks with limited training data.",
+      "analogies": [
+        "Few-shot learning is like learning to recognize a new face after seeing only a couple of photos.",
+        "It's similar to learning a new game by watching just a few rounds."
+      ],
+      "use_cases": [
+        "Customizing AI chatbots with minimal training data.",
+        "Improving language translation with limited examples.",
+        "Enabling AI models to quickly adapt to new topics."
+      ]
+	},
+	{
+	  "id": "moe",
+      "word": "Mixture of Experts (MOE)",
+      "credit": "Mario Lurig",
+      "visible": true,
+      "last_updated": "2025-03-30",
+      "one_sentence_definition": "A machine learning model that routes tasks to specialized sub-models.",
+      "detailed_definition": "Mixture of Experts (MOE) is an AI architecture that divides tasks among specialized models, or 'experts,' to optimize efficiency and accuracy. A gating mechanism selects which expert(s) to use for each input, improving computational efficiency. This is all built into a single model, unlike AI agents which run independently.",
+      "analogies": [
+        "MOE is like consulting different specialists for different medical conditions rather than one general doctor, all located within the same office.",
+        "It’s like a multi-chef kitchen where each chef specializes in a specific cuisine."
+      ],
+      "use_cases": [
+        "Optimizing AI model efficiency by distributing workloads.",
+        "Improving language models by routing tasks to domain-specific sub-models.",
+        "Enhancing decision-making systems in complex environments."
+      ]
+	},
+	{
+		"id": "reward_modeling",
+      "word": "Reward Modeling",
+      "credit": "OpenAI GPT-4o",
+      "visible": true,
+      "last_updated": "2025-03-30",
+      "one_sentence_definition": "Training AI by defining rewards for desirable behaviors.",
+      "detailed_definition": "Reward modeling is the process of designing reward functions that guide AI behavior in reinforcement learning systems. This technique is used to align AI objectives with human values and ensure desirable outcomes.",
+      "analogies": [
+        "Reward modeling is like giving a child a star for good behavior to reinforce positive actions.",
+        "It’s similar to how a game assigns points to encourage strategic play."
+      ],
+      "use_cases": [
+        "Training AI to align with human ethical standards.",
+        "Improving reinforcement learning applications like robotics and gaming."
+      ]
+	},
+	{
+		"id": "unsupervised_learning",
+      "word": "Unsupervised Learning",
+      "credit": "OpenAI GPT-4o",
+      "visible": true,
+      "last_updated": "2025-03-30",
+      "one_sentence_definition": "Machine learning where AI finds patterns without labeled data.",
+      "detailed_definition": "Unsupervised learning is a machine learning approach where models analyze and group data without predefined labels. It helps discover hidden patterns, clusters, and relationships within datasets without explicit human supervision.",
+      "analogies": [
+        "Unsupervised learning is like discovering natural groupings of books in a library without predefined categories.",
+        "It's similar to noticing trends in fashion without being explicitly told what they are."
+      ],
+      "use_cases": [
+        "Customer segmentation for targeted marketing.",
+        "Detecting anomalies in cybersecurity systems.",
+        "Identifying patterns in genetic data for medical research."
+      ]
+	}
     ],
-    "last_updated": "2025-03-28"
+    "last_updated": "2025-03-30"
   }

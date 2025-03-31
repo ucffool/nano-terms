@@ -7,6 +7,8 @@ These are the underlying goals of the project:
 - Built for **mobile devices**.
 - Explain just enough to keep someone connected to the conversation that introduced the new terminology.
 
+![NanoTerms Example](static/og-image.jpg)
+
 ## Use Case
 When attending a talk on AI as a relative newcomer to AI, you hear an acronym or word that you don't understand. You quickly scan a QR code on the wall, bringing you to NanoTerms, and look for the word mentioned.
 Reading the _short description_ doesn't satisfy your curiosity, so you click through to the detailed definition and examples. After 20 seconds, you feel comfortable enough with the term to return your focus to the speaker.

@@ -276,7 +276,40 @@
         "Detecting anomalies in cybersecurity systems.",
         "Identifying patterns in genetic data for medical research."
       ]
+	},
+  {
+		"id": "mcp",
+      "word": "MCP",
+      "credit": "gumloop.com",
+      "visible": true,
+      "last_updated": "2025-04-12",
+      "one_sentence_definition": "LLM to API translation server.",
+      "detailed_definition": "MCP (Model Context Protocol) is a new open standard created by Anthropic that makes it easier for large language models (LLMs) and software applications to work together — unlocking new ways to develop AI tools and workflows.\n\nAt its core, an MCP helps developers build AI workflows and agents that leverage LLMs. Think of it this way: you probably have a handful of tools you use every day at work — Slack, an email client, Google Sheets, Notion, etc. You also probably use LLMs like ChatGPT, Claude, Gemini, or Grok.\n\nMCP acts as a bridge between these tools and your favorite LLM, allowing you to create automated workflows where an LLM can help execute tasks across your tech stack.",
+      "analogies": [
+        "APIs are a programmatic way to accomplish something that a user can do with a click, while MCP does the same for LLMs to APIs.",
+        "A translator between LLMs and APIs, increasing reliability and preventing hallucinations."
+      ],
+      "use_cases": [
+        "Google Docs and Google Sheets can be automated with MCP to handle tasks like adding rows or columns.",
+        "Automatically send Slack messages with MCP to automate routine tasks."
+      ]
+	},
+  {
+		"id": "nim",
+      "word": "NIM (Nvidia)",
+      "credit": "weka.io",
+      "visible": true,
+      "last_updated": "2025-04-12",
+      "one_sentence_definition": "NVIDIA Networking Infrastructure Management.",
+      "detailed_definition": "A tool designed for managing and monitoring high performance networking infrastructure. NVIDIA NIMs is primarily aimed at large-scale deployments where high-speed, low-latency networking is critical, such as AI/ML workloads, high performance computing (HPC), and enterprise data centers.\n\nNVIDIA NIM APIs and microservices provide easy access to AI models and manage communication between the components within the NVIDIA NIMs framework. And each container’s deployment infrastructure supports various environments, including cloud, on-premise, and hybrid setups.",
+      "analogies": [
+        "GPS guides vehicles through the most efficient routes to their destinations. NVIDIA NIM serves as a GPS for network packets, dynamically routing them through the most optimal paths within the network infrastructure, reducing latency, and increasing overall network efficiency.",
+        "Just as air traffic control manages the flow of aircraft, ensuring safe distances, efficient routing, and minimizing congestion, NVIDIA NIM oversees the network's data traffic. It optimizes data flow, reduces congestion, and ensures all \"data planes\" reach their destinations efficiently and securely."
+      ],
+      "use_cases": [
+        "Optimizing AI/ML Workload Performance in Research Institutions (30-70%).",
+        "Enhancing Esports Tournament Network Reliability for a Major Gaming Arena."      ]
 	}
     ],
-    "last_updated": "2025-03-30"
+    "last_updated": "2025-04-12"
   }

@@ -1,362 +1,367 @@
 {
-    "terms": [
-      {
-        "id": "rag",
-        "word": "RAG",
-        "credit": "Mario Lurig",
-        "visible": true,
-        "last_updated": "2025-03-25",
-        "one_sentence_definition": "Adding new information to supplement model knowledge.",
-        "detailed_definition": "Retrieval-Augmented Generation (RAG) is a hybrid approach in natural language processing that integrates information retrieval techniques with generative models. It first retrieves relevant documents from a corpus based on the user's query and then uses these documents to generate a response through a language model, aiming for more accurate and contextually relevant answers.",
-        "analogies": [
-          "RAG can be compared to using a library to find books that might contain information about a topic you are interested in (retrieval) and then reading those books to write an essay or answer questions (generation)."
+  "terms":[
+     {
+        "id":"rag",
+        "word":"RAG",
+        "credit":"Mario Lurig",
+        "visible":true,
+        "last_updated":"2025-03-25",
+        "one_sentence_definition":"Adding new information to supplement model knowledge.",
+        "detailed_definition":"Retrieval-Augmented Generation (RAG) is a hybrid approach in natural language processing that integrates information retrieval techniques with generative models. It first retrieves relevant documents from a corpus based on the user's query and then uses these documents to generate a response through a language model, aiming for more accurate and contextually relevant answers.",
+        "analogies":[
+           "RAG can be compared to using a library to find books that might contain information about a topic you are interested in (retrieval) and then reading those books to write an essay or answer questions (generation)."
         ],
-        "use_cases": [
-          "Adding proprietary documentation to allow the model to search for answers considering that new data.",
-          "Content creation by generating text based on a particular style of writing in input documents.",
-          "Building conversational agents that provide detailed, contextually accurate responses."
+        "use_cases":[
+           "Adding proprietary documentation to allow the model to search for answers considering that new data.",
+           "Content creation by generating text based on a particular style of writing in input documents.",
+           "Building conversational agents that provide detailed, contextually accurate responses."
         ]
-      },
-      {
-        "id": "agents",
-        "word": "Agents",
-        "credit": "Mario Lurig",
-        "visible": true,
-        "last_updated": "2025-02-05",
-        "one_sentence_definition": "Autonomous systems that perform tasks and interact with users or the environment.",
-        "detailed_definition": "AI agents are software entities programmed to perceive their environment, reason about it, make decisions, and take actions to achieve specific goals. These can be chatbots, virtual assistants, robots, or any other intelligent system that operates autonomously or with minimal human intervention. They use a variety of techniques including machine learning, natural language processing, and decision-making algorithms to interact effectively.",
-        "analogies": [
-          "AI agents can be likened to personal assistants who help manage your schedule, answer questions, and complete tasks without direct manual instructions.",
-          "A collection of AI agents can function like a group of microservices, all performing specialized tasks under an AI coordinator (at the highest agentic level)."
+     },
+     {
+        "id":"agents",
+        "word":"Agents",
+        "credit":"Mario Lurig",
+        "visible":true,
+        "last_updated":"2025-02-05",
+        "one_sentence_definition":"Autonomous systems that perform tasks and interact with users or the environment.",
+        "detailed_definition":"AI agents are software entities programmed to perceive their environment, reason about it, make decisions, and take actions to achieve specific goals. These can be chatbots, virtual assistants, robots, or any other intelligent system that operates autonomously or with minimal human intervention. They use a variety of techniques including machine learning, natural language processing, and decision-making algorithms to interact effectively.",
+        "analogies":[
+           "AI agents can be likened to personal assistants who help manage your schedule, answer questions, and complete tasks without direct manual instructions.",
+           "A collection of AI agents can function like a group of microservices, all performing specialized tasks under an AI coordinator (at the highest agentic level)."
         ],
-        "use_cases": [
-          "Customer service chatbots providing support 24/7.",
-          "Robotic process automation (RPA) systems performing repetitive tasks in business processes.",
-          "Virtual assistants like Siri or Gemini helping with daily activities and information retrieval.",
-          "A travel agency service combining multiple agents to handle different tasks: booking flights, checking hotel availability, and making reservations."
+        "use_cases":[
+           "Customer service chatbots providing support 24/7.",
+           "Robotic process automation (RPA) systems performing repetitive tasks in business processes.",
+           "Virtual assistants like Siri or Gemini helping with daily activities and information retrieval.",
+           "A travel agency service combining multiple agents to handle different tasks: booking flights, checking hotel availability, and making reservations."
         ]
-      },
-      {
-        "id": "temperature",
-        "word": "Temperature",
-        "credit": "Mario Lurig",
-        "visible": true,
-        "last_updated": "2025-04-05",
-        "one_sentence_definition": "Controls the randomness of text generation.",
-        "detailed_definition": "The temperature parameter is used in generative models like GPT (Generative Pre-trained Transformer) to adjust the creativity and diversity of the generated text. A low temperature value makes the model more deterministic and focused, producing responses that are more likely to be accurate and on-topic. Conversely, a high temperature introduces more randomness, leading to more varied and unpredictable outputs, which can sometimes result in more creative or novel ideas.",
-        "analogies": [
-          "Adjusting the temperature parameter is like turning up or down the volume of a radio; it changes how clearly you hear the music but also affects its diversity."
+     },
+     {
+        "id":"temperature",
+        "word":"Temperature",
+        "credit":"Mario Lurig",
+        "visible":true,
+        "last_updated":"2025-04-05",
+        "one_sentence_definition":"Controls the randomness of text generation.",
+        "detailed_definition":"The temperature parameter is used in generative models like GPT (Generative Pre-trained Transformer) to adjust the creativity and diversity of the generated text. A low temperature value makes the model more deterministic and focused, producing responses that are more likely to be accurate and on-topic. Conversely, a high temperature introduces more randomness, leading to more varied and unpredictable outputs, which can sometimes result in more creative or novel ideas.",
+        "analogies":[
+           "Adjusting the temperature parameter is like turning up or down the volume of a radio; it changes how clearly you hear the music but also affects its diversity."
         ],
-        "use_cases": [
-          "Generating content where precision and accuracy are needed (e.g., articles, reports, code creation).",
-          "If you ask, \"What are the benefits of exercising?\", with a temperature of 0, the model might say: \"Exercising improves heart health and muscle strength, lowers the chance of chronic diseases, and helps manage weight.\"",
-          "With the same question on exercise and a temperature of 1, you might get: \"Exercise is the alchemist turning sweat into a miracle cure, a ritual dancing in the flames of effort and reward.\""
+        "use_cases":[
+           "Generating content where precision and accuracy are needed (e.g., articles, reports, code creation).",
+           "If you ask, \"What are the benefits of exercising?\", with a temperature of 0, the model might say: \"Exercising improves heart health and muscle strength, lowers the chance of chronic diseases, and helps manage weight.\"",
+           "With the same question on exercise and a temperature of 1, you might get: \"Exercise is the alchemist turning sweat into a miracle cure, a ritual dancing in the flames of effort and reward.\""
         ]
-      },
-    {
-      "id": "token",
-      "word": "Token",
-      "credit": "MIT Sloan Teaching & Learning Technologies",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "A basic unit of text in AI models, such as a word or subwords.",
-      "detailed_definition": "A token is the smallest unit of text that an AI model processes and understands; this is typically 4 characters in English, or about ¾ of a word. Tokens may include whole words, parts of words, individual characters, punctuation marks, and special characters (LinkedIn Learning, n.d.).",
-      "analogies": [
-        "Tokens are like building blocks that can be put together to form sentences and paragraphs."
-      ],
-      "use_cases": []
-    },
-    {
-      "id": "transformers",
-      "word": "Transformers",
-      "credit": "Amazon AWS",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "Models that grasp context and the language’s long-term associations",
-      "detailed_definition": "Transformers are a type of neural network architecture that transforms or changes an input sequence into an output sequence. They do this by learning context and tracking relationships between sequence components. For example, consider this input sequence: \"What is the color of the sky?\" The transformer model uses an internal mathematical representation that identifies the relevancy and relationship between the words color, sky, and blue. It uses that knowledge to generate the output: \"The sky is blue.\" This allows them to capture complex relationships and dependencies within text, making them highly effective for tasks such as translation, summarization, and question answering.",
-      "analogies": [
-        "Transformers are like paying attention to different parts of a conversation at once to understand its context."
-      ],
-      "use_cases": [
-        "They can summarize large documents and generate coherent and contextually relevant text for all kinds of use cases. Virtual assistants like Alexa use transformer technology to understand and respond to voice commands.",
-        "Translation applications use transformers to provide real-time, accurate translations between languages. Transformers have significantly improved the fluency and accuracy of translations as compared to previous technologies.",
-        "By treating segments of DNA as a sequence similar to language, transformers can predict the effects of genetic mutations, understand genetic patterns, and help identify regions of DNA that are responsible for certain diseases. This capability is crucial for personalized medicine, where understanding an individual's genetic makeup can lead to more effective treatments."
-      ]
-    },
-    {
-      "id": "hallucination",
-      "word": "Hallucination",
-      "credit": "MIT Sloan Teaching & Learning Technologies",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "When a model generates false or incorrect information.",
-      "detailed_definition": "Occurrences where large language models generate factually inaccurate or illogical answers due to data and architecture constraints are called hallucinations. This can happen due to the model's training data containing inaccuracies or because the model extrapolates beyond its learned patterns without sufficient context.",
-      "analogies": [
-        "Hallucination is like believing in a story that is entirely made up and not grounded in reality.",
-		"A machine's version of \"improvisation\", where it attempts to make reason out of things that don't make sense or it doesn't have associations for, causing illogical predictions."
-      ],
-      "use_cases": [
-        "Ensuring the accuracy of chatbot responses to avoid spreading misinformation.",
-        "Monitoring AI-generated content for inconsistencies or errors.",
-        "Improving training datasets to reduce the likelihood of hallucinations."
-      ]
-    },
-    {
-      "id": "neural_network",
-      "word": "Neural Network",
-      "credit": "MIT Sloan Teaching & Learning Technologies",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "Mathematical system that identifies and analyzes statistical patterns.",
-      "detailed_definition": "Neural Networks, modeled after the human brain, are a mathematical system that actively learns skills by identifying and analyzing statistical patterns in data. This system features multiple layers of artificial neurons, which are computational models inspired by the neurons in our brain. These artificial neurons process information and transmit signals to other connected neurons. While the first layer processes the input data, the final layer delivers the results. Intriguingly, even the experts who meticulously design these neural networks often find themselves puzzled by the intricate processes occurring between the layers.",
-      "analogies": [
-        "Neural networks are like a brain's interconnected neurons working together to process information.",
-		"An extremely large spreadsheet of interconnected layers (multiple sheets) with values between 0 and 1 in every cell."
-      ],
-      "use_cases": [
-        "Image classification for identifying objects in photos.",
-        "Speech recognition for converting spoken words into text.",
-        "Recommender systems that suggest products or content based on user preferences."
-      ]
-    },
-    {
-      "id": "reinforcement_learning",
-      "word": "Reinforcement Learning",
-      "credit": "MIT Sloan Teaching & Learning Technologies",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "Machine learning where an agent learns through trial and error.",
-      "detailed_definition": "Reinforcement Learning is a method in AI training where models learn optimal decision-making strategies through cycles of actions and feedback, with human interaction (commonly) playing a pivotal role in refining the learning process. Models learn by making decisions, observing the outcomes of those decisions, and adjusting their strategies accordingly.\n\nDeepseek's R1-Zero model uses mathematical data to allow for machine reinforcement.",
-      "analogies": [
-        "Reinforcement learning is like teaching a child to play a game by rewarding them for winning and letting them try again when they lose."
-      ],
-      "use_cases": [
-        "Training robots to perform complex tasks efficiently.",
-        "Developing autonomous vehicles that navigate unpredictable road conditions.",
-        "Optimizing online advertising strategies based on user interactions."
-      ]
-    },
-    {
-      "id": "supervised_learning",
-      "word": "Supervised Learning",
-      "credit": "Mario Lurig",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "Machine learning where an algorithm learns from labeled datasets.",
-      "detailed_definition": "Supervised learning involves training a model on a dataset that includes both input features and corresponding labels. The model learns patterns in the data and uses these patterns to predict outcomes for new, unseen data. This allows the algorithm to learn the mapping from inputs to outputs, enabling it to make predictions or decisions when presented with new, unseen data",
-      "analogies": [
-        "Supervised learning is like teaching a student what answers are correct based on labeled examples.",
-		"Showing you 10 pictures each of a circle, square, and triangle, then showing you a new image of one of those shapes and asking you to identify it to see how well you've learned."
-      ],
-      "use_cases": [
-        "Classifying emails as spam or not spam.",
-		"Image classification.",
-        "Predicting house prices based on features like size and location.",
-        "Recommending products to users based on their past purchases."
-      ]
-    },
-    {
-      "id": "chain_of_thought_prompting",
-      "word": "Chain of Thought (CoT) Prompting",
-      "credit": "MIT Sloan Teaching & Learning Technologies",
-      "visible": true,
-      "last_updated": "2025-03-28",
-      "one_sentence_definition": "Prompting with step-by-step instructions to show \"how\".",
-      "detailed_definition": "Chain-of-Thought (CoT) prompting is a technique that enhances the reasoning capabilities of large language models (LLMs) by incorporating logical steps—or a \"chain of thought\"—within the prompt. Unlike direct-answer prompting, CoT guides the model to work through intermediate reasoning steps, making it more adept at solving complex tasks like math problems, commonsense reasoning, and symbolic manipulation. This approach helps improve transparency and interpretability by making it easier to understand how the model arrives at its conclusions.",
-      "analogies": [
-        "Chain of Thought prompting is like explaining your thought process when solving a puzzle, step-by-step."
-      ],
-      "use_cases": [
-        "Q: John has 10 apples. He gives away 4 and then receives 5 more. How many apples does he have?\nA: John starts with 10 apples.\nHe gives away 4, so 10 - 4 = 6.\nHe then receives 5 more apples, so 6 + 5 = 11.\nFinal Answer: 11\nQ: [Your Question]",
-		"Convert the HTML below into JSON format using the following JSON template: `{}`.\nUse synonyms to establish matches for each field.\nIf there is more than one result, use an array."
-      ]
-    },
-	{
-      "id": "embedding",
-      "word": "Embedding",
-      "credit": "OpenAI GPT-4o",
-      "visible": true,
-      "last_updated": "2025-03-30",
-      "one_sentence_definition": "A way of representing words or data as numerical vectors.",
-      "detailed_definition": "Embeddings convert categorical or unstructured data, like words or images, into continuous numerical vectors in a high-dimensional space. This transformation allows machine learning models to process and understand relationships between different inputs more effectively.",
-      "analogies": [
-        "Embeddings are like placing books in a library according to their subject, grouping similar ones together.",
-        "They act as GPS coordinates for concepts, helping models find related meanings."
-      ],
-      "use_cases": [
-        "Improving search engines by understanding synonyms and related concepts.",
-        "Powering recommendation systems by analyzing user preferences.",
-        "Enhancing chatbot understanding of user queries."
-      ]
-	},
-	{
-		"id": "prompt_engineering",
-      "word": "Prompt Engineering",
-      "credit": "Mario Lurig",
-      "visible": true,
-      "last_updated": "2025-03-30",
-      "one_sentence_definition": "Crafting inputs to guide AI models toward desired outputs.",
-      "detailed_definition": "Prompt engineering is the practice of designing and refining input prompts to optimize the responses of AI models. By structuring prompts effectively, users can improve accuracy, relevance, and creativity in the model's generated content.",
-      "analogies": [
-        "Prompt engineering is like giving precise instructions to a chef to get the exact dish you want.",
-        "It’s similar to asking a well-phrased question to get a clear answer."
-      ],
-      "use_cases": [
-        "Create an image of a car by a lake.\nOR\nA pristine red 1959 Cadillac convertible with chrome trim and iconic pointed tail fins stands parked beside a weathered wooden boathouse with grey-stained timber walls on the rocky shore of a Norwegian fjord. A young woman wearing a white knee-length 1950s-style dress with a floral print pattern leans against the passenger door of the car. Behind the scene, steep snow-capped mountains rise dramatically against a bright blue sky dotted with white scattered clouds. The calm waters of the fjord reflect the mountains and sky, while large granite boulders line the shoreline where the boathouse sits. Wide-angle landscape photography with natural lighting and deep depth of field..",
-        "Improving chatbot and virtual assistant interactions."
-      ]
-	},
-	{
-	  "id": "few_shot_learning",
-      "word": "Few-shot Learning",
-      "credit": "OpenAI GPT-4o",
-      "visible": true,
-      "last_updated": "2025-03-30",
-      "one_sentence_definition": "Training AI to perform tasks using only a few examples.",
-      "detailed_definition": "Few-shot learning is a machine learning approach where models generalize from a small number of examples, rather than requiring extensive labeled datasets. This technique is particularly useful for tasks with limited training data.",
-      "analogies": [
-        "Few-shot learning is like learning to recognize a new face after seeing only a couple of photos.",
-        "It's similar to learning a new game by watching just a few rounds."
-      ],
-      "use_cases": [
-        "Customizing AI chatbots with minimal training data.",
-        "Improving language translation with limited examples.",
-        "Enabling AI models to quickly adapt to new topics."
-      ]
-	},
-	{
-	  "id": "moe",
-      "word": "Mixture of Experts (MOE)",
-      "credit": "Mario Lurig",
-      "visible": true,
-      "last_updated": "2025-03-30",
-      "one_sentence_definition": "A machine learning model that routes tasks to specialized sub-models.",
-      "detailed_definition": "Mixture of Experts (MOE) is an AI architecture that divides tasks among specialized models, or 'experts,' to optimize efficiency and accuracy. A gating mechanism selects which expert(s) to use for each input, improving computational efficiency. This is all built into a single model, unlike AI agents which run independently.",
-      "analogies": [
-        "MOE is like consulting different specialists for different medical conditions rather than one general doctor, all located within the same office.",
-        "It’s like a multi-chef kitchen where each chef specializes in a specific cuisine."
-      ],
-      "use_cases": [
-        "Optimizing AI model efficiency by distributing workloads.",
-        "Improving language models by routing tasks to domain-specific sub-models.",
-        "Enhancing decision-making systems in complex environments."
-      ]
-	},
-	{
-		"id": "reward_modeling",
-      "word": "Reward Modeling",
-      "credit": "OpenAI GPT-4o",
-      "visible": true,
-      "last_updated": "2025-03-30",
-      "one_sentence_definition": "Training AI by defining rewards for desirable behaviors.",
-      "detailed_definition": "Reward modeling is the process of designing reward functions that guide AI behavior in reinforcement learning systems. This technique is used to align AI objectives with human values and ensure desirable outcomes.",
-      "analogies": [
-        "Reward modeling is like giving a child a star for good behavior to reinforce positive actions.",
-        "It’s similar to how a game assigns points to encourage strategic play."
-      ],
-      "use_cases": [
-        "Training AI to align with human ethical standards.",
-        "Improving reinforcement learning applications like robotics and gaming."
-      ]
-	},
-	{
-		"id": "unsupervised_learning",
-      "word": "Unsupervised Learning",
-      "credit": "OpenAI GPT-4o",
-      "visible": true,
-      "last_updated": "2025-03-30",
-      "one_sentence_definition": "Machine learning where AI finds patterns without labeled data.",
-      "detailed_definition": "Unsupervised learning is a machine learning approach where models analyze and group data without predefined labels. It helps discover hidden patterns, clusters, and relationships within datasets without explicit human supervision.",
-      "analogies": [
-        "Unsupervised learning is like discovering natural groupings of books in a library without predefined categories.",
-        "It's similar to noticing trends in fashion without being explicitly told what they are."
-      ],
-      "use_cases": [
-        "Customer segmentation for targeted marketing.",
-        "Detecting anomalies in cybersecurity systems.",
-        "Identifying patterns in genetic data for medical research."
-      ]
-	},
-  {
-		"id": "mcp",
-      "word": "MCP",
-      "credit": "gumloop.com",
-      "visible": true,
-      "last_updated": "2025-04-12",
-      "one_sentence_definition": "LLM to API translation server.",
-      "detailed_definition": "MCP (Model Context Protocol) is a new open standard created by Anthropic that makes it easier for large language models (LLMs) and software applications to work together — unlocking new ways to develop AI tools and workflows.\n\nAt its core, an MCP helps developers build AI workflows and agents that leverage LLMs. Think of it this way: you probably have a handful of tools you use every day at work — Slack, an email client, Google Sheets, Notion, etc. You also probably use LLMs like ChatGPT, Claude, Gemini, or Grok.\n\nMCP acts as a bridge between these tools and your favorite LLM, allowing you to create automated workflows where an LLM can help execute tasks across your tech stack.",
-      "analogies": [
-        "APIs are a programmatic way to accomplish something that a user can do with a click, while MCP does the same for LLMs to APIs.",
-        "A translator between LLMs and APIs, increasing reliability and preventing hallucinations."
-      ],
-      "use_cases": [
-        "Google Docs and Google Sheets can be automated with MCP to handle tasks like adding rows or columns.",
-        "Automatically send Slack messages with MCP to automate routine tasks."
-      ]
-	},
-  {
-		"id": "nim",
-      "word": "NIM (Nvidia)",
-      "credit": "weka.io",
-      "visible": true,
-      "last_updated": "2025-04-12",
-      "one_sentence_definition": "NVIDIA Networking Infrastructure Management.",
-      "detailed_definition": "A tool designed for managing and monitoring high performance networking infrastructure. NVIDIA NIMs is primarily aimed at large-scale deployments where high-speed, low-latency networking is critical, such as AI/ML workloads, high performance computing (HPC), and enterprise data centers.\n\nNVIDIA NIM APIs and microservices provide easy access to AI models and manage communication between the components within the NVIDIA NIMs framework. And each container’s deployment infrastructure supports various environments, including cloud, on-premise, and hybrid setups.",
-      "analogies": [
-        "GPS guides vehicles through the most efficient routes to their destinations. NVIDIA NIM serves as a GPS for network packets, dynamically routing them through the most optimal paths within the network infrastructure, reducing latency, and increasing overall network efficiency.",
-        "Just as air traffic control manages the flow of aircraft, ensuring safe distances, efficient routing, and minimizing congestion, NVIDIA NIM oversees the network's data traffic. It optimizes data flow, reduces congestion, and ensures all \"data planes\" reach their destinations efficiently and securely."
-      ],
-      "use_cases": [
-        "Optimizing AI/ML Workload Performance in Research Institutions (30-70%).",
-        "Enhancing Esports Tournament Network Reliability for a Major Gaming Arena."      ]
-	},
-  {
-    "id": "huggingface",
-    "word": "HuggingFace",
-    "credit": "Alibaba Cloud",
-    "visible": false,
-    "last_updated": "2025-04-17",
-    "one_sentence_definition": "Website with tools and models for machine learning.",
-    "detailed_definition": "Hugging Face is an open-source platform created by Anthropic, focusing on artificial intelligence in natural language processing (NLP). It offers pre-trained models, APIs, libraries, and resources that facilitate the development of NLP applications. The platform also supports community contributions and collaboration among developers to enhance AI capabilities.",
-    "analogies": [
-        "Hugging Face is like a library for machine learning tools and pre-trained models."
-    ],
-    "use_cases": []
-},
-{
-  "id": "vectorize",
-  "word": "Vectorize",
-  "credit": "Alibaba Cloud",
-  "visible": false,
-  "last_updated": "2025-04-17",
-  "one_sentence_definition": "Process for converting data into numerical vectors (Embedding).",
-  "detailed_definition": "Vectorization involves transforming raw data, such as text or images, into numerical representations known as vectors. This transformation allows machine learning models to process and analyze the data effectively. In natural language processing, vectorization typically converts words or sentences into dense numerical arrays that capture semantic meaning.",
-  "analogies": [
-      "Vectorization is like representing words as points in a multi-dimensional space."
+     },
+     {
+        "id":"token",
+        "word":"Token",
+        "credit":"MIT Sloan Teaching & Learning Technologies",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"A basic unit of text in AI models, such as a word or subwords.",
+        "detailed_definition":"A token is the smallest unit of text that an AI model processes and understands; this is typically 4 characters in English, or about ¾ of a word. Tokens may include whole words, parts of words, individual characters, punctuation marks, and special characters (LinkedIn Learning, n.d.).",
+        "analogies":[
+           "Tokens are like building blocks that can be put together to form sentences and paragraphs."
+        ],
+        "use_cases":[
+           
+        ]
+     },
+     {
+        "id":"transformers",
+        "word":"Transformers",
+        "credit":"Amazon AWS",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"Models that grasp context and the language’s long-term associations",
+        "detailed_definition":"Transformers are a type of neural network architecture that transforms or changes an input sequence into an output sequence. They do this by learning context and tracking relationships between sequence components. For example, consider this input sequence: \"What is the color of the sky?\" The transformer model uses an internal mathematical representation that identifies the relevancy and relationship between the words color, sky, and blue. It uses that knowledge to generate the output: \"The sky is blue.\" This allows them to capture complex relationships and dependencies within text, making them highly effective for tasks such as translation, summarization, and question answering.",
+        "analogies":[
+           "Transformers are like paying attention to different parts of a conversation at once to understand its context."
+        ],
+        "use_cases":[
+           "They can summarize large documents and generate coherent and contextually relevant text for all kinds of use cases. Virtual assistants like Alexa use transformer technology to understand and respond to voice commands.",
+           "Translation applications use transformers to provide real-time, accurate translations between languages. Transformers have significantly improved the fluency and accuracy of translations as compared to previous technologies.",
+           "By treating segments of DNA as a sequence similar to language, transformers can predict the effects of genetic mutations, understand genetic patterns, and help identify regions of DNA that are responsible for certain diseases. This capability is crucial for personalized medicine, where understanding an individual's genetic makeup can lead to more effective treatments."
+        ]
+     },
+     {
+        "id":"hallucination",
+        "word":"Hallucination",
+        "credit":"MIT Sloan Teaching & Learning Technologies",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"When a model generates false or incorrect information.",
+        "detailed_definition":"Occurrences where large language models generate factually inaccurate or illogical answers due to data and architecture constraints are called hallucinations. This can happen due to the model's training data containing inaccuracies or because the model extrapolates beyond its learned patterns without sufficient context.",
+        "analogies":[
+           "Hallucination is like believing in a story that is entirely made up and not grounded in reality.",
+           "A machine's version of \"improvisation\", where it attempts to make reason out of things that don't make sense or it doesn't have associations for, causing illogical predictions."
+        ],
+        "use_cases":[
+           "Ensuring the accuracy of chatbot responses to avoid spreading misinformation.",
+           "Monitoring AI-generated content for inconsistencies or errors.",
+           "Improving training datasets to reduce the likelihood of hallucinations."
+        ]
+     },
+     {
+        "id":"neural_network",
+        "word":"Neural Network",
+        "credit":"MIT Sloan Teaching & Learning Technologies",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"Mathematical system that identifies and analyzes statistical patterns.",
+        "detailed_definition":"Neural Networks, modeled after the human brain, are a mathematical system that actively learns skills by identifying and analyzing statistical patterns in data. This system features multiple layers of artificial neurons, which are computational models inspired by the neurons in our brain. These artificial neurons process information and transmit signals to other connected neurons. While the first layer processes the input data, the final layer delivers the results. Intriguingly, even the experts who meticulously design these neural networks often find themselves puzzled by the intricate processes occurring between the layers.",
+        "analogies":[
+           "Neural networks are like a brain's interconnected neurons working together to process information.",
+           "An extremely large spreadsheet of interconnected layers (multiple sheets) with values between 0 and 1 in every cell."
+        ],
+        "use_cases":[
+           "Image classification for identifying objects in photos.",
+           "Speech recognition for converting spoken words into text.",
+           "Recommender systems that suggest products or content based on user preferences."
+        ]
+     },
+     {
+        "id":"reinforcement_learning",
+        "word":"Reinforcement Learning",
+        "credit":"MIT Sloan Teaching & Learning Technologies",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"Machine learning where an agent learns through trial and error.",
+        "detailed_definition":"Reinforcement Learning is a method in AI training where models learn optimal decision-making strategies through cycles of actions and feedback, with human interaction (commonly) playing a pivotal role in refining the learning process. Models learn by making decisions, observing the outcomes of those decisions, and adjusting their strategies accordingly.\n\nDeepseek's R1-Zero model uses mathematical data to allow for machine reinforcement.",
+        "analogies":[
+           "Reinforcement learning is like teaching a child to play a game by rewarding them for winning and letting them try again when they lose."
+        ],
+        "use_cases":[
+           "Training robots to perform complex tasks efficiently.",
+           "Developing autonomous vehicles that navigate unpredictable road conditions.",
+           "Optimizing online advertising strategies based on user interactions."
+        ]
+     },
+     {
+        "id":"supervised_learning",
+        "word":"Supervised Learning",
+        "credit":"Mario Lurig",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"Machine learning where an algorithm learns from labeled datasets.",
+        "detailed_definition":"Supervised learning involves training a model on a dataset that includes both input features and corresponding labels. The model learns patterns in the data and uses these patterns to predict outcomes for new, unseen data. This allows the algorithm to learn the mapping from inputs to outputs, enabling it to make predictions or decisions when presented with new, unseen data",
+        "analogies":[
+           "Supervised learning is like teaching a student what answers are correct based on labeled examples.",
+           "Showing you 10 pictures each of a circle, square, and triangle, then showing you a new image of one of those shapes and asking you to identify it to see how well you've learned."
+        ],
+        "use_cases":[
+           "Classifying emails as spam or not spam.",
+           "Image classification.",
+           "Predicting house prices based on features like size and location.",
+           "Recommending products to users based on their past purchases."
+        ]
+     },
+     {
+        "id":"chain_of_thought_prompting",
+        "word":"Chain of Thought (CoT) Prompting",
+        "credit":"MIT Sloan Teaching & Learning Technologies",
+        "visible":true,
+        "last_updated":"2025-03-28",
+        "one_sentence_definition":"Prompting with step-by-step instructions to show \"how\".",
+        "detailed_definition":"Chain-of-Thought (CoT) prompting is a technique that enhances the reasoning capabilities of large language models (LLMs) by incorporating logical steps—or a \"chain of thought\"—within the prompt. Unlike direct-answer prompting, CoT guides the model to work through intermediate reasoning steps, making it more adept at solving complex tasks like math problems, commonsense reasoning, and symbolic manipulation. This approach helps improve transparency and interpretability by making it easier to understand how the model arrives at its conclusions.",
+        "analogies":[
+           "Chain of Thought prompting is like explaining your thought process when solving a puzzle, step-by-step."
+        ],
+        "use_cases":[
+           "Q: John has 10 apples. He gives away 4 and then receives 5 more. How many apples does he have?\nA: John starts with 10 apples.\nHe gives away 4, so 10 - 4 = 6.\nHe then receives 5 more apples, so 6 + 5 = 11.\nFinal Answer: 11\nQ: [Your Question]",
+           "Convert the HTML below into JSON format using the following JSON template: `{}`.\nUse synonyms to establish matches for each field.\nIf there is more than one result, use an array."
+        ]
+     },
+     {
+        "id":"embedding",
+        "word":"Embedding",
+        "credit":"OpenAI GPT-4o",
+        "visible":true,
+        "last_updated":"2025-03-30",
+        "one_sentence_definition":"A way of representing words or data as numerical vectors.",
+        "detailed_definition":"Embeddings convert categorical or unstructured data, like words or images, into continuous numerical vectors in a high-dimensional space. This transformation allows machine learning models to process and understand relationships between different inputs more effectively.",
+        "analogies":[
+           "Embeddings are like placing books in a library according to their subject, grouping similar ones together.",
+           "They act as GPS coordinates for concepts, helping models find related meanings."
+        ],
+        "use_cases":[
+           "Improving search engines by understanding synonyms and related concepts.",
+           "Powering recommendation systems by analyzing user preferences.",
+           "Enhancing chatbot understanding of user queries."
+        ]
+     },
+     {
+        "id":"prompt_engineering",
+        "word":"Prompt Engineering",
+        "credit":"Mario Lurig",
+        "visible":true,
+        "last_updated":"2025-03-30",
+        "one_sentence_definition":"Crafting inputs to guide AI models toward desired outputs.",
+        "detailed_definition":"Prompt engineering is the practice of designing and refining input prompts to optimize the responses of AI models. By structuring prompts effectively, users can improve accuracy, relevance, and creativity in the model's generated content.",
+        "analogies":[
+           "Prompt engineering is like giving precise instructions to a chef to get the exact dish you want.",
+           "It’s similar to asking a well-phrased question to get a clear answer."
+        ],
+        "use_cases":[
+           "Create an image of a car by a lake.\nOR\nA pristine red 1959 Cadillac convertible with chrome trim and iconic pointed tail fins stands parked beside a weathered wooden boathouse with grey-stained timber walls on the rocky shore of a Norwegian fjord. A young woman wearing a white knee-length 1950s-style dress with a floral print pattern leans against the passenger door of the car. Behind the scene, steep snow-capped mountains rise dramatically against a bright blue sky dotted with white scattered clouds. The calm waters of the fjord reflect the mountains and sky, while large granite boulders line the shoreline where the boathouse sits. Wide-angle landscape photography with natural lighting and deep depth of field..",
+           "Improving chatbot and virtual assistant interactions."
+        ]
+     },
+     {
+        "id":"few_shot_learning",
+        "word":"Few-shot Learning",
+        "credit":"OpenAI GPT-4o",
+        "visible":true,
+        "last_updated":"2025-03-30",
+        "one_sentence_definition":"Training AI to perform tasks using only a few examples.",
+        "detailed_definition":"Few-shot learning is a machine learning approach where models generalize from a small number of examples, rather than requiring extensive labeled datasets. This technique is particularly useful for tasks with limited training data.",
+        "analogies":[
+           "Few-shot learning is like learning to recognize a new face after seeing only a couple of photos.",
+           "It's similar to learning a new game by watching just a few rounds."
+        ],
+        "use_cases":[
+           "Customizing AI chatbots with minimal training data.",
+           "Improving language translation with limited examples.",
+           "Enabling AI models to quickly adapt to new topics."
+        ]
+     },
+     {
+        "id":"moe",
+        "word":"Mixture of Experts (MOE)",
+        "credit":"Mario Lurig",
+        "visible":true,
+        "last_updated":"2025-03-30",
+        "one_sentence_definition":"A machine learning model that routes tasks to specialized sub-models.",
+        "detailed_definition":"Mixture of Experts (MOE) is an AI architecture that divides tasks among specialized models, or 'experts,' to optimize efficiency and accuracy. A gating mechanism selects which expert(s) to use for each input, improving computational efficiency. This is all built into a single model, unlike AI agents which run independently.",
+        "analogies":[
+           "MOE is like consulting different specialists for different medical conditions rather than one general doctor, all located within the same office.",
+           "It’s like a multi-chef kitchen where each chef specializes in a specific cuisine."
+        ],
+        "use_cases":[
+           "Optimizing AI model efficiency by distributing workloads.",
+           "Improving language models by routing tasks to domain-specific sub-models.",
+           "Enhancing decision-making systems in complex environments."
+        ]
+     },
+     {
+        "id":"reward_modeling",
+        "word":"Reward Modeling",
+        "credit":"OpenAI GPT-4o",
+        "visible":true,
+        "last_updated":"2025-03-30",
+        "one_sentence_definition":"Training AI by defining rewards for desirable behaviors.",
+        "detailed_definition":"Reward modeling is the process of designing reward functions that guide AI behavior in reinforcement learning systems. This technique is used to align AI objectives with human values and ensure desirable outcomes.",
+        "analogies":[
+           "Reward modeling is like giving a child a star for good behavior to reinforce positive actions.",
+           "It’s similar to how a game assigns points to encourage strategic play."
+        ],
+        "use_cases":[
+           "Training AI to align with human ethical standards.",
+           "Improving reinforcement learning applications like robotics and gaming."
+        ]
+     },
+     {
+        "id":"unsupervised_learning",
+        "word":"Unsupervised Learning",
+        "credit":"OpenAI GPT-4o",
+        "visible":true,
+        "last_updated":"2025-03-30",
+        "one_sentence_definition":"Machine learning where AI finds patterns without labeled data.",
+        "detailed_definition":"Unsupervised learning is a machine learning approach where models analyze and group data without predefined labels. It helps discover hidden patterns, clusters, and relationships within datasets without explicit human supervision.",
+        "analogies":[
+           "Unsupervised learning is like discovering natural groupings of books in a library without predefined categories.",
+           "It's similar to noticing trends in fashion without being explicitly told what they are."
+        ],
+        "use_cases":[
+           "Customer segmentation for targeted marketing.",
+           "Detecting anomalies in cybersecurity systems.",
+           "Identifying patterns in genetic data for medical research."
+        ]
+     },
+     {
+        "id":"mcp",
+        "word":"MCP",
+        "credit":"gumloop.com",
+        "visible":true,
+        "last_updated":"2025-04-12",
+        "one_sentence_definition":"LLM to API translation server.",
+        "detailed_definition":"MCP (Model Context Protocol) is a new open standard created by Anthropic that makes it easier for large language models (LLMs) and software applications to work together — unlocking new ways to develop AI tools and workflows.\n\nAt its core, an MCP helps developers build AI workflows and agents that leverage LLMs. Think of it this way: you probably have a handful of tools you use every day at work — Slack, an email client, Google Sheets, Notion, etc. You also probably use LLMs like ChatGPT, Claude, Gemini, or Grok.\n\nMCP acts as a bridge between these tools and your favorite LLM, allowing you to create automated workflows where an LLM can help execute tasks across your tech stack.",
+        "analogies":[
+           "APIs are a programmatic way to accomplish something that a user can do with a click, while MCP does the same for LLMs to APIs.",
+           "A translator between LLMs and APIs, increasing reliability and preventing hallucinations."
+        ],
+        "use_cases":[
+           "Google Docs and Google Sheets can be automated with MCP to handle tasks like adding rows or columns.",
+           "Automatically send Slack messages with MCP to automate routine tasks."
+        ]
+     },
+     {
+        "id":"nim",
+        "word":"NIM (Nvidia)",
+        "credit":"weka.io",
+        "visible":true,
+        "last_updated":"2025-04-12",
+        "one_sentence_definition":"NVIDIA Networking Infrastructure Management.",
+        "detailed_definition":"A tool designed for managing and monitoring high performance networking infrastructure. NVIDIA NIMs is primarily aimed at large-scale deployments where high-speed, low-latency networking is critical, such as AI/ML workloads, high performance computing (HPC), and enterprise data centers.\n\nNVIDIA NIM APIs and microservices provide easy access to AI models and manage communication between the components within the NVIDIA NIMs framework. And each container’s deployment infrastructure supports various environments, including cloud, on-premise, and hybrid setups.",
+        "analogies":[
+           "GPS guides vehicles through the most efficient routes to their destinations. NVIDIA NIM serves as a GPS for network packets, dynamically routing them through the most optimal paths within the network infrastructure, reducing latency, and increasing overall network efficiency.",
+           "Just as air traffic control manages the flow of aircraft, ensuring safe distances, efficient routing, and minimizing congestion, NVIDIA NIM oversees the network's data traffic. It optimizes data flow, reduces congestion, and ensures all \"data planes\" reach their destinations efficiently and securely."
+        ],
+        "use_cases":[
+           "Optimizing AI/ML Workload Performance in Research Institutions (30-70%).",
+           "Enhancing Esports Tournament Network Reliability for a Major Gaming Arena."
+        ]
+     },
+     {
+        "id":"huggingface",
+        "word":"HuggingFace",
+        "credit":"Alibaba Cloud",
+        "visible":false,
+        "last_updated":"2025-04-17",
+        "one_sentence_definition":"Website with tools and models for machine learning.",
+        "detailed_definition":"Hugging Face is an open-source platform created by Anthropic, focusing on artificial intelligence in natural language processing (NLP). It offers pre-trained models, APIs, libraries, and resources that facilitate the development of NLP applications. The platform also supports community contributions and collaboration among developers to enhance AI capabilities.",
+        "analogies":[
+           "Hugging Face is like a library for machine learning tools and pre-trained models."
+        ],
+        "use_cases":[
+           
+        ]
+     },
+     {
+        "id":"vectorize",
+        "word":"Vectorize",
+        "credit":"Alibaba Cloud",
+        "visible":false,
+        "last_updated":"2025-04-17",
+        "one_sentence_definition":"Process for converting data into numerical vectors (Embedding).",
+        "detailed_definition":"Vectorization involves transforming raw data, such as text or images, into numerical representations known as vectors. This transformation allows machine learning models to process and analyze the data effectively. In natural language processing, vectorization typically converts words or sentences into dense numerical arrays that capture semantic meaning.",
+        "analogies":[
+           "Vectorization is like representing words as points in a multi-dimensional space."
+        ],
+        "use_cases":[
+           "Training word embeddings for NLP tasks.",
+           "Processing image data for computer vision models.",
+           "Indexing large datasets for efficient similarity search."
+        ]
+     },
+     {
+        "id":"prd",
+        "word":"PRD",
+        "credit":"Alibaba Cloud",
+        "visible":false,
+        "last_updated":"2025-04-17",
+        "one_sentence_definition":"A Product Requirements Document.",
+        "detailed_definition":"A Product Requirements Document (PRD) is a comprehensive document that specifies all the necessary requirements and specifications for developing a software product. It outlines functional, non-functional, and technical requirements, as well as user stories, acceptance criteria, and timelines. The PRD serves as a reference guide for stakeholders, developers, and testers to ensure alignment on project goals.",
+        "analogies":[
+           "A PRD is like a blueprint for building a house."
+        ],
+        "use_cases":[
+           "Guiding software development teams throughout the product lifecycle.",
+           "Communicating project requirements to stakeholders.",
+           "Facilitating collaboration between developers and non-technical team members."
+        ]
+     }
   ],
-  "use_cases": [
-      "Training word embeddings for NLP tasks.",
-      "Processing image data for computer vision models.",
-      "Indexing large datasets for efficient similarity search."
-  ]
-},
-{
-  "id": "prd",
-  "word": "PRD",
-  "credit": "Alibaba Cloud",
-  "visible": false,
-  "last_updated": "2025-04-17",
-  "one_sentence_definition": "A Product Requirements Document.",
-  "detailed_definition": "A Product Requirements Document (PRD) is a comprehensive document that specifies all the necessary requirements and specifications for developing a software product. It outlines functional, non-functional, and technical requirements, as well as user stories, acceptance criteria, and timelines. The PRD serves as a reference guide for stakeholders, developers, and testers to ensure alignment on project goals.",
-  "analogies": [
-      "A PRD is like a blueprint for building a house."
-  ],
-  "use_cases": [
-      "Guiding software development teams throughout the product lifecycle.",
-      "Communicating project requirements to stakeholders.",
-      "Facilitating collaboration between developers and non-technical team members."
-  ]
+  "last_updated":"2025-04-17"
 }
-    ],
-    "last_updated": "2025-04-17"
-  }

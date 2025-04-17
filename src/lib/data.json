@@ -309,7 +309,54 @@
       "use_cases": [
         "Optimizing AI/ML Workload Performance in Research Institutions (30-70%).",
         "Enhancing Esports Tournament Network Reliability for a Major Gaming Arena."      ]
-	}
+	},
+  {
+    "id": "huggingface",
+    "word": "HuggingFace",
+    "credit": "Alibaba Cloud",
+    "visible": false,
+    "last_updated": "2025-04-17",
+    "one_sentence_definition": "Website with tools and models for machine learning.",
+    "detailed_definition": "Hugging Face is an open-source platform created by Anthropic, focusing on artificial intelligence in natural language processing (NLP). It offers pre-trained models, APIs, libraries, and resources that facilitate the development of NLP applications. The platform also supports community contributions and collaboration among developers to enhance AI capabilities.",
+    "analogies": [
+        "Hugging Face is like a library for machine learning tools and pre-trained models."
     ],
-    "last_updated": "2025-04-12"
+    "use_cases": []
+},
+{
+  "id": "vectorize",
+  "word": "Vectorize",
+  "credit": "Alibaba Cloud",
+  "visible": false,
+  "last_updated": "2025-04-17",
+  "one_sentence_definition": "Process for converting data into numerical vectors (Embedding).",
+  "detailed_definition": "Vectorization involves transforming raw data, such as text or images, into numerical representations known as vectors. This transformation allows machine learning models to process and analyze the data effectively. In natural language processing, vectorization typically converts words or sentences into dense numerical arrays that capture semantic meaning.",
+  "analogies": [
+      "Vectorization is like representing words as points in a multi-dimensional space."
+  ],
+  "use_cases": [
+      "Training word embeddings for NLP tasks.",
+      "Processing image data for computer vision models.",
+      "Indexing large datasets for efficient similarity search."
+  ]
+},
+{
+  "id": "prd",
+  "word": "PRD",
+  "credit": "Alibaba Cloud",
+  "visible": false,
+  "last_updated": "2025-04-17",
+  "one_sentence_definition": "A Product Requirements Document.",
+  "detailed_definition": "A Product Requirements Document (PRD) is a comprehensive document that specifies all the necessary requirements and specifications for developing a software product. It outlines functional, non-functional, and technical requirements, as well as user stories, acceptance criteria, and timelines. The PRD serves as a reference guide for stakeholders, developers, and testers to ensure alignment on project goals.",
+  "analogies": [
+      "A PRD is like a blueprint for building a house."
+  ],
+  "use_cases": [
+      "Guiding software development teams throughout the product lifecycle.",
+      "Communicating project requirements to stakeholders.",
+      "Facilitating collaboration between developers and non-technical team members."
+  ]
+}
+    ],
+    "last_updated": "2025-04-17"
   }
